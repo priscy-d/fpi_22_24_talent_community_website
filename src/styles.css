@@ -1,5 +1,5 @@
 .title{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bolder;
 }
 .darkbackground{
@@ -9,4 +9,23 @@
 .whitebackground{
     background-color: white;
     color: black;
+}
+.line{
+    border: 2px solid #cfe064;
+}
+.header{
+    max-width: 40%;
+}
+.content{
+    padding-top:20px ;
+    padding-bottom: 50px;
+}
+.greentext{
+    color: #30bb98;
+    font-size: small;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lemongreenbackground{
+    background-color: #f3f6f5;
 }

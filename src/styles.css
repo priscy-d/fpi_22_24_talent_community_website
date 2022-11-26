@@ -1,0 +1,12 @@
+.title{
+    font-size: 65px;
+    font-weight: bolder;
+}
+.darkbackground{
+    background-color: black;
+    color: white;
+}
+.whitebackground{
+    background-color: white;
+    color: black;
+}

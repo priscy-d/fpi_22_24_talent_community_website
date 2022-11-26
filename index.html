@@ -5,69 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>frontend clone 1</title>
+    <link rel="stylesheet" href="src/styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
-<body>
-    <div class="container text-center">
-        <div>
+<body  >
+    <div class="darkbackground">
+        <div class="container">
             <nav class="navbar">
                 <div class='navbar-brand'>
                     <img src="assets/images/c.svg"/>
                     <h3>Community</h3>
                 </div>
-                <div>
-                    <ul class="navbar-nav">
+                <div >
+                    <ul class="navbar-nav d-flex flex-row " >
                         <li class="nav-item">Price</li>
                         <li class="nav-item">Blog</li>
                         <li class="nav-item">Support</li>
-                        <li class="nav-item"><button class="btn rounded">Download</button></li>
+                        <li class="nav-item"><button type="button" class="btn btn-outline-warning">Download</button></li>
                     </ul>
                 </div>
             </nav>
-            <div>
-                <div>
+            <div class="d-flex flex-row ">
+                <div >
                     <div></div>
-                    <h1>A tool to support getting a dream design job.</h1>
+                    <h1 class="title">A tool to support getting a dream design job.</h1>
                     <p>We create a platform for operating systems supporting designers in looking for their dream job.</p>
-                    <button>Check Pricing</button>
+                    <button type="button" class="btn btn-outline-warning">Check Pricing</button>
                 </div>
-                <div>
+                <div >
                     <img src="assets/images/homepageImage.webp"/>
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <div><h2>Join the group 45,000+ satisfied and active users in the design industries</h2></div>
-                <div>
-                    <div><img src="assets/images/logoip1.webp"/></div>
-                    <div><img src="assets/images/logoip2.webp"/></div>
-                    <div><img src="assets/images/logoip3.webp"/></div>
-                    <div><img src="assets/images/logoip4.webp"/></div>
+        <div class="whitebackground">
+            <div class="container">
+                <div class="text-center w-50 m-auto"><h2>Join the group 45,000+ satisfied and active users in the design industries</h2></div>
+                <div class="d-flex flex-row justify-content-around ">
+                    <div><img src="assets/images/logoip1.webp" width="100px"/></div>
+                    <div><img src="assets/images/logoip2.webp" width="150px"/></div>
+                    <div><img src="assets/images/logoip3.webp" width="150px"/></div>
+                    <div><img src="assets/images/logoip4.webp" width="150px"/></div>
+                    <div><img src="assets/images/logoip5.webp" width="150px"/></div>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="container">
+                <div class="text-center">
                     <a>INTRODUCTION</a>
                     <h2>Find your dream job in a well-known company and make a career with our platform.</h2>
                     <p>Our platform brings together many popular companies in recruiting talents and people with a passion for design.</p>
                 </div>
-                <div>
-                    <div>
+                <div class="d-flex flex-row ">
+                    <div class="card">
                         <div></div>
                         <div>
                             <h3>Dream job work</h3>
                             <p>The platform focuses on creating advertisements from many cities around the world and various jobs for designers and development.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="card">
                         <div></div>
                         <div>
                             <h3>Dream job work</h3>
                             <p>The platform focuses on creating advertisements from many cities around the world and various jobs for designers and development.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="card">
                         <div></div>
                         <div>
                             <h3>Dream job work</h3>
@@ -76,40 +78,47 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div><img src="assets/images/screen.webp"/></div>
-                <div>
-                    <a>DARK MODE</a>
-                    <h2>Advanced recruitment and job creating system for designers.</h2>
-                    <p>Add advertisements and recruit new employees by viewing all information about the candidate.</p>
-                    <button>Download</button>
+            <div class="container ">
+               <div class="d-flex flex-row ">
+                    <div><img src="assets/images/screen.webp" /></div>
                     <div>
-                        <div></div>
+                        <a>DARK MODE</a>
+                        <h2>Advanced recruitment and job creating system for designers.</h2>
+                        <p>Add advertisements and recruit new employees by viewing all information about the candidate.</p>
+                        <button>Download</button>
                         <div>
-                            <h3>Organized offers</h3>
-                            <p>If you are looking for a new employee, just add an advertisement. The platform is made up of many talented creators.</p>
-                        </div>
-                        <div>
-                            <h3>Organized offers</h3>
-                            <p>If you are looking for a new employee, just add an advertisement. The platform is made up of many talented creators.</p>
+                            <div></div>
+                            <div class="card">
+                                <h3>Organized offers</h3>
+                                <p>If you are looking for a new employee, just add an advertisement. The platform is made up of many talented creators.</p>
+                            </div>
+                            <div class="card">
+                                <h3>Organized offers</h3>
+                                <p>If you are looking for a new employee, just add an advertisement. The platform is made up of many talented creators.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+               </div>
             </div>
-            <div>
-                <div>
-                    <a>FILTER MODE</a>
-                    <h2>Hundreds of job advertisements tailored to the cities</h2>
-                    <p>It is enough to create an account, complete the necessary information about education and experience.</p>
+            <div class="container">
+                <div class="d-flex flex-row ">
                     <div>
+                        <a>FILTER MODE</a>
+                        <h2>Hundreds of job advertisements tailored to the cities</h2>
+                        <p>It is enough to create an account, complete the necessary information about education and experience.</p>
                         <div>
-                            <h3>Dark / Light Mode</h3>
-                            <p>Switch between light or dark mode according to your preferences.</p>
+                            <div>
+                                <h3>Dark / Light Mode</h3>
+                                <p>Switch between light or dark mode according to your preferences.</p>
+                            </div>
+                            <div>
+                                <h3>Dark / Light Mode</h3>
+                                <p>Switch between light or dark mode according to your preferences.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3>Dark / Light Mode</h3>
-                            <p>Switch between light or dark mode according to your preferences.</p>
-                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/screen2.webp"/>
                     </div>
                 </div>
             </div>

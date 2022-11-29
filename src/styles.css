@@ -11,7 +11,7 @@
     color: black;
 }
 .line{
-    border: 2px solid #cfe064;
+    background:#cfe064;
 }
 .header{
     max-width: 40%;
@@ -28,4 +28,68 @@
 }
 .lemongreenbackground{
     background-color: #f3f6f5;
+}
+.secondheader{
+    font-size: 30px;
+    font-weight:bolder;
+    
+}
+.smalltext{
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.7);
+}
+.smallblack{
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.7);
+}
+.textsize{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardc1{
+    background: #dfece0;
+}
+.cardc2{
+    background: #eff6c4;
+}
+.cardc3{
+    background: #e2e2f3;
+}
+.cardt{
+    width: 25em;
+}
+.icon{
+    width: 5em;
+    height: auto;
+}
+.thirdtitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+.titlehd{
+    font-size: 42px;
+    font-weight: bold;
+}
+.smalltitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.updatecolor{
+    color: #30bb98;
+}
+.smalltitle2{
+    font-size: 16px;
+}
+.color{
+    color:rgba(255, 255, 255, 0.7);
+}
+.circles{
+    background:black; 
+    width: 45px; 
+    height:45px; 
+    color:white;
+}
+.bg{
+   
+    background-image: url("https://storage.googleapis.com/studio-cms-assets/projects/EjOQyNn1OJ/s-1008x502_v-fs_webp_2c73a18a-93d0-4666-b6dc-be1ff646db21.webp") 
 }
